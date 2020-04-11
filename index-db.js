@@ -26,7 +26,7 @@ app.get('/', function (req, res) {
 });
 
 
-// server to JIRA
+// server to JIRA 1
 var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
